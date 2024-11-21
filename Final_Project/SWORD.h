@@ -10,6 +10,8 @@
  */
  
  #include "UART.h"
+#include "Buzzer.h"
+ #include "Door_Control.h"
  #include <string.h>
  
  
@@ -38,5 +40,4 @@ void CreateUser(void);
  */
 void DisplayMenu(void);
 
-void Lock_All_Doors(void);
-void Unlock_All_Doors(void);
+

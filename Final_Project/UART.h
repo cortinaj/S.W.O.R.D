@@ -9,8 +9,10 @@
  */
 
 #include "TM4C123GH6PM.h"
+#include "Timer.h"
 #define UART0_RECEIVE_FIFO_EMPTY_BIT_MASK 0x10
 #define UART0_TRANSMIT_FIFO_FULL_BIT_MASK 0x20
+
 /**
  * @brief Carriage return character
  */

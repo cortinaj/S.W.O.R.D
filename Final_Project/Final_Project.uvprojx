@@ -389,6 +389,11 @@
               <FileType>1</FileType>
               <FilePath>.\SWORD.c</FilePath>
             </File>
+            <File>
+              <FileName>Door_Control.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Door_Control.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -398,6 +403,11 @@
               <FileName>SWORD.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\SWORD.h</FilePath>
+            </File>
+            <File>
+              <FileName>Door_Control.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Door_Control.h</FilePath>
             </File>
           </Files>
         </Group>

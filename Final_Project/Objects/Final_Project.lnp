@@ -1,5 +1,6 @@
 --cpu=Cortex-M4.fp.sp
 ".\objects\sword.o"
+".\objects\door_control.o"
 ".\objects\main.o"
 ".\objects\buzzer.o"
 ".\objects\gpio.o"

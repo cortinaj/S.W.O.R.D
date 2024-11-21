@@ -40,6 +40,9 @@ int main(void)
 		
 	//Initialize the button (Sw2 -Sw5) on the EduBase board (Port D)
 	EduBase_Button_Init();
+	
+	RGB_LED_Init();
+	
 		
 	//Initialize the DMT-1206 Magnetic Buzzer (Port C)
 	Buzzer_Init();

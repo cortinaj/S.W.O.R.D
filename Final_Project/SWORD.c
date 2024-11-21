@@ -9,10 +9,13 @@
  */
  
  #include "SWORD.h"
- #include "Buzzer.h"
+ 
  
  char username[username_length] = "";
  uint8_t doors_locked = 0;
+ uint8_t Room1_Status = 0;
+ uint8_t Room2_Status = 0;
+ uint8_t Room3_Status = 0; 
  
  void CreateUser(void)
  {
@@ -41,7 +44,7 @@
 	 UART0_Output_Newline();
 	 UART0_Output_String("2. Unlock all doors.");
 	 UART0_Output_Newline();
-	 UART0_Output_String("3. Check Door Status.");
+	 UART0_Output_String("3. Check Room Status.");
 	 UART0_Output_Newline();
 	 
 	 char user_input = UART0_Input_Character();
@@ -49,14 +52,13 @@
 	 switch (user_input)
 	 {
 		 case '1':
-			 Lock_All_Doors();
-			 break;
+				Lock_All_Doors();
+		 break;
 		 case '2':
 			 Unlock_All_Doors();
 		   break;
 		 case '3':
-			 UART0_Output_String("Exiting menu.");
-			 UART0_Output_Newline();
+			 Check_Room_Status();
 			 break;
 		 default:
 			 UART0_Output_String("Invalid choice. Please try again.");
@@ -65,24 +67,3 @@
 	 }
  }
  
- void Lock_All_Doors(void)
- {
-	 doors_locked = 1;
-	 
-	 Play_Note(C4_NOTE, 100);
-	 Play_Note(E4_NOTE, 100);
-	 Play_Note(G4_NOTE, 200);
-	 UART0_Output_String("All doors are now LOCKED.");
-	 UART0_Output_Newline();
- }
- 
- void Unlock_All_Doors(void)
- {
-	 doors_locked = 0;
-	 
-	 Play_Note(G4_NOTE, 100);
-	 Play_Note(E4_NOTE, 100);
-	 Play_Note(C4_NOTE, 200);
-	 UART0_Output_String("All doors are now UNLOCKED.");
-	 UART0_Output_Newline();
- }
