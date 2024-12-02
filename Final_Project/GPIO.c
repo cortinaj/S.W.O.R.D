@@ -99,6 +99,12 @@ void EduBase_Button_Init(void)
 	GPIOD->DEN |= 0x0F;
 }
 
+void EduBase_Button_Off(uint8_t led_mask)
+{
+	uint8_t current_led_state = GPIOB -> DATA & 0x0F;
+	EduBase_LEDs_Output(current_led_state & ~led_mask);
+}
+
 uint8_t Get_EduBase_Button_Status(void)
 {
 	// Assign the value of Port D to a local variable

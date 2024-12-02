@@ -21,3 +21,11 @@
  void Lock_All_Doors(void);
  void Unlock_All_Doors(void);
  void Check_Room_Status(void);
+ 
+ void Door_1(uint8_t lock);
+ void Door_2(uint8_t lock);
+ void Door_3(uint8_t lock);
+
+void OpenDoors(void);
+void Attempt_To_Open_Door(uint8_t door);
+void Trigger_Alarm(uint8_t door);

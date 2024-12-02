@@ -10,7 +10,7 @@
  */
  
  #include "UART.h"
-#include "Buzzer.h"
+ #include "Buzzer.h"
  #include "Door_Control.h"
  #include <string.h>
  
@@ -39,5 +39,16 @@ void CreateUser(void);
  * @return None
  */
 void DisplayMenu(void);
+
+/**
+ * @brief Create SWORD's Room Menu
+ *
+ * Uses the UART function to output a menu terminal for the user
+ *
+ * @param none
+ *
+ * @return None
+ */
+void IndividualRooms(void);
 
 

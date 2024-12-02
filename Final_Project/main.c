@@ -54,7 +54,5 @@ int main(void)
 	{
 		UART0_Output_Newline();
 		DisplayMenu();
-//		uint8_t edubase_button_status = Get_EduBase_Button_Status();
-//		Note_Controller(edubase_button_status);
 	}
 }

@@ -125,6 +125,8 @@ void EduBase_LEDs_Output(uint8_t led_value);
  */
 void EduBase_Button_Init(void);
 
+void EduBase_Button_Off(uint8_t led_mask);
+
 /**
  * @brief The Get_EduBase_Button_Status reads the status of the EduBase Board buttons (SW2 - SW5) and returns it.
  *
