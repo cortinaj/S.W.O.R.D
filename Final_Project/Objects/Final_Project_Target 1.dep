@@ -2,33 +2,30 @@ Dependencies for Project 'Final_Project', Target 'Target 1': (DO NOT MODIFY !)
 CompilerVersion: 6220000::V6.22::ARMCLANG
 F (.\SWORD.c)(0x674D1F15)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Keil_v5/ARM/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_-o ./objects/sword.o -MMD)
 I (SWORD.h)(0x674D19B8)
-I (UART.h)(0x673F8FCE)
+I (UART.h)(0x674E4D36)
 I (C:\Keil_v5\ARM\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x66CE2149)
 I (C:\Keil_v5\ARM\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664CAB78)
 I (C:\Keil_v5\ARM\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x66CE2149)
-I (Timer.h)(0x673F8C88)
 I (Buzzer.h)(0x673EA43A)
 I (SysTick_Delay.h)(0x673EA103)
 I (GPIO.h)(0x6743975A)
 I (Door_Control.h)(0x674D2039)
-F (.\Door_Control.c)(0x674D203B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Keil_v5/ARM/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_-o ./objects/door_control.o -MMD)
+F (.\Door_Control.c)(0x674D21E5)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Keil_v5/ARM/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_-o ./objects/door_control.o -MMD)
 I (Door_Control.h)(0x674D2039)
-I (UART.h)(0x673F8FCE)
+I (UART.h)(0x674E4D36)
 I (C:\Keil_v5\ARM\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x66CE2149)
 I (C:\Keil_v5\ARM\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664CAB78)
 I (C:\Keil_v5\ARM\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x66CE2149)
-I (Timer.h)(0x673F8C88)
 I (SysTick_Delay.h)(0x673EA103)
 I (Buzzer.h)(0x673EA43A)
 I (GPIO.h)(0x6743975A)
 F (.\SWORD.h)(0x674D19B8)()
 F (.\Door_Control.h)(0x674D2039)()
-F (.\main.c)(0x674D19CE)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Keil_v5/ARM/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_-o ./objects/main.o -MMD)
+F (.\main.c)(0x674D20AD)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Keil_v5/ARM/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_-o ./objects/main.o -MMD)
 I (C:\Keil_v5\ARM\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x66CE2149)
 I (C:\Keil_v5\ARM\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664CAB78)
 I (C:\Keil_v5\ARM\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x66CE2149)
-I (UART.h)(0x673F8FCE)
-I (Timer.h)(0x673F8C88)
+I (UART.h)(0x674E4D36)
 I (SysTick_Delay.h)(0x673EA103)
 I (GPIO.h)(0x6743975A)
 I (Buzzer.h)(0x673EA43A)
@@ -53,12 +50,11 @@ I (C:\Keil_v5\ARM\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x6
 I (C:\Keil_v5\ARM\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664CAB78)
 I (C:\Keil_v5\ARM\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x66CE2149)
 F (.\UART.c)(0x673F8FD4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Keil_v5/ARM/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Keil_v5/ARM/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="540" -DTM4C123GH6PM -D_RTE_-o ./objects/uart.o -MMD)
-I (UART.h)(0x673F8FCE)
+I (UART.h)(0x674E4D36)
 I (C:\Keil_v5\ARM\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x66CE2149)
 I (C:\Keil_v5\ARM\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664CAB78)
 I (C:\Keil_v5\ARM\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x66CE2149)
-I (Timer.h)(0x673F8C88)
-F (.\UART.h)(0x673F8FCE)()
+F (.\UART.h)(0x674E4D36)()
 F (.\SysTick_Delay.h)(0x673EA103)()
 F (.\GPIO.h)(0x6743975A)()
 F (.\Buzzer.h)(0x673EA43A)()
