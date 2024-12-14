@@ -25,6 +25,6 @@ We successfully achieved our project goals by leveraging UART as the primary com
 
 The block diagram provided is the final result. Compared to the previous block diagram provided in the proposal, there are less hardware peripherals due to the main focus switching to UART. The second diagram illustrates the role of UART in the S.W.O.R.D system. The process begins with the user entering their selection on the terminal, which transmits the data to the receiver—the TIVA microcontroller (MCU). Upon receiving the data, the MCU executes the corresponding function and sends a response back to the terminal for user feedback.
 
-![Block Diagram](../../../Downloads/Updated_Flow_Chart.drawio.png)
 
-![UART Diagram](<../../../Downloads/UART Diagram.png>)
+
+![Alt] (Images/UART Diagram (1).png)
