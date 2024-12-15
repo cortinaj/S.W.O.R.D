@@ -10,7 +10,7 @@
  * of the TM4C123GH6PM Microcontroller Datasheet.
  *   - Link: https://www.ti.com/lit/gpn/TM4C123GH6PM
  *
- * @author
+ * @author John Paul D. Cortina/ Adrian Gaspar
  */
 
 #include "TM4C123GH6PM.h"

@@ -5,7 +5,7 @@
  *
  * This file contains the definitions of all the functions required for checking and maintaing door status.
  *
- * @author John Paul D. Cortina
+ * @author John Paul D. Cortina / Adrian Gaspar
  */
  #include "Door_Control.h"
 
